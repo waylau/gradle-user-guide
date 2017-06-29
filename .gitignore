@@ -1,14 +1,14 @@
-.gradle
-/build/
+*.class
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Cache of project
-.gradletasknamecache
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+*.project
